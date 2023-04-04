@@ -1,6 +1,8 @@
 # Autothread WordPress Plugin
 
-Autothread automatically creates Typefully threads from your published WordPress posts. Typefully threads are created as drafts. They are not automatically published to Twitter.
+Autothread is a WordPress plugin for automatically creating Typefully threads from your published posts. Typefully threads are created as drafts. They are not automatically published to Twitter.
+
+**Note: You will need a Typefully account to make use of this plugin.**
 
 ## Installation
 1. Download this repository as a zip file.

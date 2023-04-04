@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Autothread
  * Plugin URI: https://glug.blog/projects/autothread/
- * Description: Automatically create Twitter threads with Typefully from your WordPress posts
+ * Description: Automatically create Typefully threads from your published posts
  * Version: 1.0
  * Author: Johnathon Williams
  * Author URI: https://www.glug.blog
@@ -39,8 +39,7 @@ function autothread_create_typefully_thread( $api_key, $content ) {
     );
     $payload = array(
         'content'      => $content,
-        'threadify'    => true,
-        'schedule_date' => 'next-free-slot'
+        'threadify'    => true
     );
 
     $ch = curl_init( $url );
