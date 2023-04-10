@@ -29,6 +29,7 @@ function autothread_function_on_post_publish( $post_id ) {
   $response = autothread_create_typefully_thread( $typefully_api_key, $post_content );
 
 }
+
 add_action( 'publish_post', 'autothread_function_on_post_publish' );
 
 function autothread_create_typefully_thread( $api_key, $content ) {
